@@ -6,7 +6,7 @@ from datetime import datetime
 file_name = input("Enter the file name: ")+".txt"
 
 #To access the 3rd party API we use api key
-api_key = '87d845b0b6cf29baa1a73cc34b067a95'
+api_key = '97d3a761e3b2d7e8b403f9bc98fb8aa5'
 location = input("Enter the city name: ")
 complete_api_link = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+api_key
 api_link = requests.get(complete_api_link)
